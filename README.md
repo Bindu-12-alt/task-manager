@@ -4,7 +4,7 @@ A modern To-Do List application built with Python and Streamlit.
 
 ## 🚀 Live Demo
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR_STREAMLIT_LINK_HERE)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://task-manager-oms9khynyjrxcpturrlgoy.streamlit.app/)
 
 ## ✨ Features
 
