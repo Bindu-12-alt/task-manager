@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" width="220" height="60">
+  <defs>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#1e40af"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: Hexagon with A + circuit nodes -->
+  <g transform="translate(4, 4)">
+    <!-- Outer hexagon -->
+    <polygon
+      points="26,2 48,14 48,38 26,50 4,38 4,14"
+      fill="url(#iconGrad)"
+      opacity="0.12"
+    />
+    <!-- Inner hexagon border -->
+    <polygon
+      points="26,2 48,14 48,38 26,50 4,38 4,14"
+      fill="none"
+      stroke="url(#iconGrad)"
+      stroke-width="2"
+    />
+
+    <!-- Letter A - bold, centered -->
+    <text
+      x="26"
+      y="35"
+      text-anchor="middle"
+      font-family="'Segoe UI', Arial, sans-serif"
+      font-size="26"
+      font-weight="900"
+      fill="url(#iconGrad)"
+      letter-spacing="-1"
+    >A</text>
+
+    <!-- Circuit dot - top right -->
+    <circle cx="46" cy="12" r="3" fill="#2563eb" opacity="0.85"/>
+    <!-- Circuit dot - bottom right -->
+    <circle cx="46" cy="40" r="2.2" fill="#7c3aed" opacity="0.7"/>
+    <!-- Circuit dot - bottom left -->
+    <circle cx="6" cy="40" r="2.2" fill="#2563eb" opacity="0.7"/>
+
+    <!-- Small line accent top -->
+    <line x1="48" y1="14" x2="55" y2="10" stroke="#2563eb" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="57" cy="9" r="2" fill="#2563eb" opacity="0.5"/>
+
+    <!-- Small line accent bottom -->
+    <line x1="48" y1="38" x2="55" y2="42" stroke="#7c3aed" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="57" cy="43" r="2" fill="#7c3aed" opacity="0.5"/>
+  </g>
+
+  <!-- Company Name -->
+  <text
+    x="74"
+    y="30"
+    font-family="'Segoe UI', Arial, sans-serif"
+    font-size="20"
+    font-weight="800"
+    fill="url(#textGrad)"
+    letter-spacing="0.5"
+  >Aindhna</text>
+
+  <!-- Divider line -->
+  <line x1="74" y1="35" x2="210" y2="35" stroke="#2563eb" stroke-width="1" opacity="0.25"/>
+
+  <!-- Tagline -->
+  <text
+    x="75"
+    y="48"
+    font-family="'Segoe UI', Arial, sans-serif"
+    font-size="9"
+    font-weight="600"
+    fill="#64748b"
+    letter-spacing="2.5"
+  >CONSULTING SERVICES</text>
+</svg>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — Aindhna Consulting Services</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="/" class="logo">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" width="180" height="49" class="logo-img">
+        <defs><linearGradient id="igC" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#60a5fa"/><stop offset="100%" style="stop-color:#a78bfa"/></linearGradient></defs>
+        <g transform="translate(4,4)"><polygon points="26,2 48,14 48,38 26,50 4,38 4,14" fill="rgba(255,255,255,0.08)"/><polygon points="26,2 48,14 48,38 26,50 4,38 4,14" fill="none" stroke="url(#igC)" stroke-width="2"/><text x="26" y="35" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="900" fill="url(#igC)">A</text></g>
+        <text x="74" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="20" font-weight="800" fill="#ffffff" letter-spacing="0.5">Aindhna</text>
+        <line x1="74" y1="35" x2="210" y2="35" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+        <text x="75" y="48" font-family="'Segoe UI',Arial,sans-serif" font-size="9" font-weight="600" fill="rgba(255,255,255,0.55)" letter-spacing="2.5">CONSULTING SERVICES</text>
+      </svg>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/technologies">Technologies</a></li>
+      <li><a href="/contact" class="nav-cta">Contact Us</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-close" id="mobileClose">✕</button>
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/services">Services</a>
+  <a href="/technologies">Technologies</a>
+  <a href="/contact">Contact Us</a>
+</div>
+
+<!-- Page Hero -->
+<section class="page-hero">
+  <div class="hero-bg"><div class="grid-overlay"></div></div>
+  <div class="container">
+    <div class="page-hero-content">
+      <div class="section-tag">Get In Touch</div>
+      <h1>Contact Us</h1>
+      <p>Have a project in mind? We'd love to hear about it. Send us a message and our team will get back to you within 24 hours.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Info Panel -->
+      <div class="contact-info-panel fade-up">
+        <div class="section-tag">Reach Out</div>
+        <h2 class="section-title">Let's Start a Conversation</h2>
+        <p>Whether you need a technology consultation, want to discuss a project, or simply want to explore possibilities — we're here to help.</p>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <div class="info-card-icon">📧</div>
+            <div class="info-card-text">
+              <h4>Email Us</h4>
+              <p>info@aindhna.com</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">📞</div>
+            <div class="info-card-text">
+              <h4>Call Us</h4>
+              <p>+91 00000 00000</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">📍</div>
+            <div class="info-card-text">
+              <h4>Location</h4>
+              <p>India</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🕒</div>
+            <div class="info-card-text">
+              <h4>Working Hours</h4>
+              <p>Mon – Fri, 9:00 AM – 6:00 PM IST</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top: 36px;">
+          <h4 style="font-size:0.9rem; font-weight:700; color:var(--primary); margin-bottom:16px; text-transform:uppercase; letter-spacing:1px;">Follow Us</h4>
+          <div class="social-links">
+            <a href="#" class="social-link" style="background:rgba(37,99,235,0.1); color:var(--accent);">in</a>
+            <a href="#" class="social-link" style="background:rgba(37,99,235,0.1); color:var(--accent);">𝕏</a>
+            <a href="#" class="social-link" style="background:rgba(37,99,235,0.1); color:var(--accent);">gh</a>
+            <a href="#" class="social-link" style="background:rgba(37,99,235,0.1); color:var(--accent);">fb</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form Panel -->
+      <div class="contact-form-panel fade-up">
+        <h3>Send Us a Message</h3>
+        <p>Fill in the details below and we'll get back to you as soon as possible.</p>
+
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name *</label>
+              <input type="text" id="firstName" name="firstName" placeholder="John" required />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name *</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Doe" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="john@company.com" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 00000 00000" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="company">Company / Organization</label>
+            <input type="text" id="company" name="company" placeholder="Your company name" />
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service of Interest *</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Select a service...</option>
+              <option value="api">API Development</option>
+              <option value="ai">AI Solutions</option>
+              <option value="backend">Backend Development</option>
+              <option value="web">Web Development</option>
+              <option value="cloud">Cloud Integration</option>
+              <option value="automation">Automation Services</option>
+              <option value="other">Other / General Inquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="budget">Project Budget (Optional)</label>
+            <select id="budget" name="budget">
+              <option value="" disabled selected>Select budget range...</option>
+              <option value="small">Under ₹1 Lakh</option>
+              <option value="medium">₹1L – ₹5L</option>
+              <option value="large">₹5L – ₹20L</option>
+              <option value="enterprise">₹20L+</option>
+              <option value="discuss">Prefer to Discuss</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Project Description *</label>
+            <textarea id="message" name="message" placeholder="Tell us about your project, requirements, timeline, and any other details that would help us understand your needs..." required></textarea>
+          </div>
+
+          <button type="submit" class="form-submit">
+            Send Message ➜
+          </button>
+
+          <div class="success-msg" id="successMsg">
+            ✅ Thank you! Your message has been sent successfully. We'll get back to you within 24 hours.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Strip -->
+<section style="padding: 80px 0; background: var(--white);">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="section-tag">FAQ</div>
+      <h2 class="section-title">Common Questions</h2>
+    </div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-top:48px;">
+      <div class="value-card fade-up" style="padding:28px 24px;">
+        <h4>⏱️ How quickly can you start?</h4>
+        <p>Typically, we can begin a new project within 1–2 weeks of finalizing requirements and agreements.</p>
+      </div>
+      <div class="value-card fade-up" style="padding:28px 24px;">
+        <h4>📋 Do you sign NDAs?</h4>
+        <p>Absolutely. We take confidentiality seriously and are happy to sign NDAs before any discussions begin.</p>
+      </div>
+      <div class="value-card fade-up" style="padding:28px 24px;">
+        <h4>🔄 What is your development process?</h4>
+        <p>We follow an agile methodology with 2-week sprints, regular demos, and continuous client feedback.</p>
+      </div>
+      <div class="value-card fade-up" style="padding:28px 24px;">
+        <h4>🛠️ Do you provide post-launch support?</h4>
+        <p>Yes, we offer ongoing maintenance, monitoring, and support plans tailored to your needs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" width="160" height="44" class="footer-logo">
+          <defs><linearGradient id="igC2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#60a5fa"/><stop offset="100%" style="stop-color:#a78bfa"/></linearGradient></defs>
+          <g transform="translate(4,4)"><polygon points="26,2 48,14 48,38 26,50 4,38 4,14" fill="rgba(255,255,255,0.08)"/><polygon points="26,2 48,14 48,38 26,50 4,38 4,14" fill="none" stroke="url(#igC2)" stroke-width="2"/><text x="26" y="35" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="900" fill="url(#igC2)">A</text></g>
+          <text x="74" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="20" font-weight="800" fill="#ffffff" letter-spacing="0.5">Aindhna</text>
+        </svg>
+        <p>Empowering businesses with innovative technology solutions.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">in</a>
+          <a href="#" class="social-link">𝕏</a>
+          <a href="#" class="social-link">gh</a>
+          <a href="#" class="social-link">fb</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="technologies.html">Technologies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">API Development</a></li>
+          <li><a href="services.html">AI Solutions</a></li>
+          <li><a href="services.html">Cloud Integration</a></li>
+          <li><a href="services.html">Automation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="contact-info">
+          <div class="contact-item"><span class="ci-icon">📧</span><span>info@aindhna.com</span></div>
+          <div class="contact-item"><span class="ci-icon">📞</span><span>+91 00000 00000</span></div>
+          <div class="contact-item"><span class="ci-icon">📍</span><span>India</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Aindhna Consulting Services. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
